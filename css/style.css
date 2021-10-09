@@ -145,7 +145,7 @@ body {
   background-color: #fe8e05;
   color: #621402;
 }
-select {
+.select {
   background: rgba(255, 255, 255, 0.15);
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 5px;
@@ -153,6 +153,17 @@ select {
   padding: 18px;
   cursor: pointer;
   margin-top: 15px;
+}
+
+.select option {
+  background: rgba(100, 20, 2, 0.85);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.select .select-option:checked,
+.select .select-option:hover {
+  background-color: #fe8e05 !important;
+  color: #621402;
 }
 
 .select-cinema {
